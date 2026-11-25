@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 export function LogoMark({ size = 40 }) {
   return (
     <svg width={size} height={size} viewBox="0 0 40 40" aria-hidden>
-      <rect width="40" height="40" rx="12" fill="var(--primary)" />
-      <circle cx="20" cy="14" r="4" fill="var(--primary-foreground)" />
-      <path d="M10 27c3.5-4 6.5-6 10-6s6.5 2 10 6" stroke="var(--primary-foreground)" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+      <rect width="40" height="40" rx="12" fill="#000" />
+      <circle cx="20" cy="14" r="4" fill="#fff" />
+      <path d="M10 27c3.5-4 6.5-6 10-6s6.5 2 10 6" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" fill="none" />
     </svg>
   )
 }
