@@ -48,7 +48,7 @@ export function AuthPage({ mode }) {
   }
 
   return (
-    <div className="theme-yoga flex min-h-svh gap-6 bg-background p-4 text-foreground sm:p-6 lg:h-svh">
+    <div className="flex min-h-svh gap-6 p-4 sm:p-6 lg:h-svh">
       <div className="flex flex-1 flex-col">
         <Logo to="/login" />
         <div className="flex flex-1 items-center justify-center py-12 lg:justify-start lg:pl-12 xl:pl-[124px]">
