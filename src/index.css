@@ -128,6 +128,27 @@
     --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* Jogowa paleta (szałwia + krem) tylko dla strony logowania/rejestracji. */
+.theme-yoga {
+    --background: #f5f1e8;
+    --foreground: #2e3b2c;
+    --primary: #5b7553;
+    --primary-foreground: #ffffff;
+    --secondary: #e3e9da;
+    --secondary-foreground: #2e3b2c;
+    --muted: #e3e9da;
+    --muted-foreground: #6a7563;
+    --accent: #d3ddc7;
+    --accent-foreground: #2e3b2c;
+    --border: #dcd8c8;
+    --input: #ebe5d6;
+    --ring: #8ea582;
+    --surface: #dbe4d0;
+    --surface-strong: #c5d3b6;
+    --ink-muted: #5f6b58;
+    --icon: #8ea582;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
